@@ -4,6 +4,7 @@ import { useState } from "react";
 
 const PAPER_TITLE = "Robot Planning and Situation Handling with Active Perception";
 const CONFERENCE = "IROS 2026";
+const AWARD = "Best Paper Award \u2014 Full-Shift Robot Co-Workers Workshop, IROS 2026";
 
 const PAPER_URL = "https://arxiv.org/pdf/2604.26988";
 
@@ -138,8 +139,15 @@ export default function Home() {
           ))}
         </p>
 
-        <p className="text-gray-500 text-base italic mb-8">
+        <p className="text-gray-500 text-base italic mb-4">
           Accepted to the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026
+        </p>
+
+        <p className="mb-8">
+          <span className="inline-flex items-center gap-2 rounded-full border border-amber-300 bg-amber-50 px-4 py-1.5 text-base font-semibold text-amber-800">
+            <span aria-hidden="true">&#127942;</span>
+            {AWARD}
+          </span>
         </p>
 
         <div className="flex flex-wrap justify-center gap-3">
