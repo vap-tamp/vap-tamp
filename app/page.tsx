@@ -407,6 +407,8 @@ export default function Home() {
       {/* ── FOOTER ── */}
       <footer className="text-center text-sm text-gray-400 py-10 border-t border-gray-100 mt-8">
         VAP-TAMP &mdash; Accepted to {CONFERENCE}
+        <br />
+        {AWARD}
       </footer>
     </main>
   );
