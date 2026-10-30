@@ -298,25 +298,25 @@ export default function Home() {
           </div>
           <div>
             <p className="text-lg text-gray-600 mb-3 font-medium">Halve a Lemon: The robot navigates to find a knife, returns to the table to halve a lemon, encounters an adversarial disturbance, and recovers to complete the task.</p>
-            <div className="aspect-video">
-              <iframe
-                className="w-full h-full rounded-lg shadow-md"
-                src="https://drive.google.com/file/d/1YM_sx0-C2Gjhem2NH8Hbjt_0JasC54TL/preview"
-                allow="autoplay"
-                allowFullScreen
-              />
-            </div>
+            <video
+              className="w-full rounded-lg shadow-md"
+              controls
+              preload="metadata"
+            >
+              <source src="/vap-tamp/videos/lemon-demo.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
           <div>
             <p className="text-lg text-gray-600 mb-3 font-medium">Collect Firewood: The robot navigates to collect firewood and encounters a half-open door, detects the situation, and recovers to complete the task.</p>
-            <div className="aspect-video">
-              <iframe
-                className="w-full h-full rounded-lg shadow-md"
-                src="https://drive.google.com/file/d/1TQmRD-XYekJUuRnm3jwyP5w7JCrsbTGa/preview"
-                allow="autoplay"
-                allowFullScreen
-              />
-            </div>
+            <video
+              className="w-full rounded-lg shadow-md"
+              controls
+              preload="metadata"
+            >
+              <source src="/vap-tamp/videos/firewood-demo.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </Section>
